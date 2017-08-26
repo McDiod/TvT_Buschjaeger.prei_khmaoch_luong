@@ -4,7 +4,7 @@ class Params
         title = "Vorbereitungszeit";
         values[] = {0,60,120,300,480,600,900};
         texts[] = {"off","1min","2min","5min","8min","10min","15min"};
-        default = 300;
+        default = 60;
     };
 
     #include "USER\userParams.hpp"

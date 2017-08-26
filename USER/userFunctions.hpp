@@ -9,7 +9,11 @@ class bj {
         class checkIndStartDistances {};
         class chooseIndSpawn {};
         class createLocalMarker {};
+        class equipTargetCiv {};
+        class findNearestPos {};
+        class handleCivKilled {};
         class tpTo {};
+        class trackCiv {};
     };
 };
 

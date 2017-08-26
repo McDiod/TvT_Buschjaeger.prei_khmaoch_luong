@@ -23,3 +23,35 @@
         winTextParams[] = {"round (CBA_missionTime/60)"};
     };
 */
+
+
+class bluforeliminated {
+    preset = "ELIMINATION";
+    presetParams[] = {"WEST"};
+
+    condition = "";
+    checkInterval = 0;
+
+    winners[] = {"INDEPENDENT"};
+    winText = "USMC eliminated.<br/>Assassins win!";
+    winTextParams[] = {};
+};
+
+class opforeliminated {
+    preset = "ELIMINATION";
+    presetParams[] = {"INDEPENDENT"};
+
+    condition = "";
+    checkInterval = 0;
+
+    winners[] = {"WEST"};
+    winText = "Assassins eliminated.<br/>USMC wins!";
+    winTextParams[] = {};
+};
+
+class civTargetsKilled {
+    condition = "bj_civTargetsKilled";
+    checkInterval = 4;
+    winners[] = {"INDEPENDENT"};
+    winText = "Targets eliminated.<br/>Assassins win!";
+};
