@@ -1,3 +1,6 @@
+if (missionNamespace getVariable ["bj_chooseIndSpawnOpen",false]) exitWith {};
+bj_chooseIndSpawnOpen = true;
+
 openMap [true,true];
 
 ["bj_radius_1",true,BJ_TARGETPOSITIONS select 0,nil,"COLORYELLOW","","ELLIPSE",BJ_STARTDISTANCES select 0,1,"BORDER"] call bj_fnc_createLocalMarker;

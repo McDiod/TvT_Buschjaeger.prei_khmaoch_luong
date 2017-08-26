@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=242;
+		nextID=252;
 	};
 	class Camera
 	{
-		pos[]={2513.7615,80.006706,7687.6021};
-		dir[]={0.15527216,-0.31470099,0.93641537};
-		up[]={0.051479749,0.94919181,0.31046417};
-		aside[]={0.98653871,-8.3819032e-009,-0.16358371};
+		pos[]={2543.6238,138.02454,7615.73};
+		dir[]={-0.35781947,-0.57229537,0.73787963};
+		up[]={-0.24971084,0.8200509,0.51494288};
+		aside[]={0.89979672,2.1012966e-007,0.4363372};
 	};
 };
 binarizationWanted=0;
@@ -61,18 +61,13 @@ addons[]=
 	"A3_Boat_F_Exp_Boat_Transport_01",
 	"A3_Boat_F_Exp_Boat_Transport_02",
 	"A3_Soft_F_Exp_LSV_01",
-	"A3_Characters_F_Exp_Civil",
-	"A3_Weapons_F",
-	"ace_goggles",
-	"A3_Structures_F_System",
-	"A3_Characters_F_Heads",
-	"A3_Characters_F_Exp"
+	"A3_Characters_F_Exp_Civil"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=33;
+		items=30;
 		class Item0
 		{
 			className="A3_Modules_F_Curator";
@@ -279,27 +274,6 @@ class AddonsMetaData
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item30
-		{
-			className="A3_Weapons_F";
-			name="Arma 3 Alpha - Weapons and Accessories";
-			author="Bohemia Interactive";
-			url="https://www.arma3.com";
-		};
-		class Item31
-		{
-			className="ace_goggles";
-			name="ACE3 - Goggles";
-			author="ACE-Team";
-			url="http://ace3mod.com/";
-		};
-		class Item32
-		{
-			className="A3_Structures_F";
-			name="Arma 3 - Buildings and Structures";
-			author="Bohemia Interactive";
-			url="https://www.arma3.com";
-		};
 	};
 };
 randomSeed=7199820;
@@ -360,7 +334,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=31;
+		items=21;
 		class Item0
 		{
 			dataType="Layer";
@@ -8724,323 +8698,6 @@ class Mission
 			};
 			id=774;
 			atlOffset=4.9088006;
-		};
-		class Item21
-		{
-			dataType="Group";
-			side="Civilian";
-			class Entities
-			{
-				items=1;
-				class Item0
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={2497.0979,78.07856,7705.9214};
-						angles[]={0,3.3543413,0};
-					};
-					side="Civilian";
-					flags=7;
-					class Attributes
-					{
-						class Inventory
-						{
-							class uniform
-							{
-								typeName="U_C_Poloshirt_blue";
-								isBackpack=0;
-							};
-							map="ItemMap";
-							compass="ItemCompass";
-							watch="ItemWatch";
-							goggles="G_Squares_Tinted";
-							headgear="H_Cap_blk";
-						};
-					};
-					id=783;
-					type="C_man_polo_3_F_asia";
-				};
-			};
-			class Attributes
-			{
-			};
-			id=782;
-		};
-		class Item22
-		{
-			dataType="Group";
-			side="Civilian";
-			class Entities
-			{
-				items=1;
-				class Item0
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={2500.8342,78.101746,7703.6885};
-						angles[]={0,3.5573585,0};
-					};
-					side="Civilian";
-					flags=7;
-					class Attributes
-					{
-						class Inventory
-						{
-							class uniform
-							{
-								typeName="U_C_Poloshirt_redwhite";
-								isBackpack=0;
-							};
-							map="ItemMap";
-							compass="ItemCompass";
-							watch="ItemWatch";
-							goggles="G_Aviator";
-							headgear="H_Booniehat_khk";
-						};
-					};
-					id=785;
-					type="C_man_polo_6_F_asia";
-				};
-			};
-			class Attributes
-			{
-			};
-			id=784;
-		};
-		class Item23
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={2498.8411,78.022446,7704.208};
-				angles[]={6.2049117,0,0.054393653};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-			};
-			id=786;
-			type="Land_ClutterCutter_large_F";
-			atlOffset=2.2888184e-005;
-		};
-		class Item24
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={2503.2649,78.099739,7701.4951};
-				angles[]={6.2147884,0,0.057473864};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-			};
-			id=787;
-			type="Land_ClutterCutter_large_F";
-			atlOffset=7.6293945e-006;
-		};
-		class Item25
-		{
-			dataType="Group";
-			side="Civilian";
-			class Entities
-			{
-				items=1;
-				class Item0
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={2503.804,78.144203,7701.7202};
-						angles[]={0,3.6006224,0};
-					};
-					side="Civilian";
-					flags=7;
-					class Attributes
-					{
-						class Inventory
-						{
-							class uniform
-							{
-								typeName="U_I_C_Soldier_Bandit_2_F";
-								isBackpack=0;
-							};
-							map="ItemMap";
-							compass="ItemCompass";
-							watch="ItemWatch";
-							goggles="G_Shades_Black";
-						};
-					};
-					id=789;
-					type="C_Man_casual_6_F_asia";
-				};
-			};
-			class Attributes
-			{
-			};
-			id=788;
-		};
-		class Item26
-		{
-			dataType="Group";
-			side="Civilian";
-			class Entities
-			{
-				items=1;
-				class Item0
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={2506.8984,78.157181,7699.748};
-						angles[]={0,3.5241015,0};
-					};
-					side="Civilian";
-					flags=7;
-					class Attributes
-					{
-						class Inventory
-						{
-							class uniform
-							{
-								typeName="U_C_Man_casual_6_F";
-								isBackpack=0;
-							};
-							map="ItemMap";
-							compass="ItemCompass";
-							watch="ItemWatch";
-							headgear="H_Hat_tan";
-						};
-					};
-					id=791;
-					type="C_Man_casual_6_F_asia";
-				};
-			};
-			class Attributes
-			{
-			};
-			id=790;
-		};
-		class Item27
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={2508.7793,78.123756,7698.6372};
-				angles[]={6.2080588,0,0.013019908};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-			};
-			id=792;
-			type="Land_ClutterCutter_large_F";
-			atlOffset=-2.2888184e-005;
-		};
-		class Item28
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={2514.5308,77.964043,7696.2969};
-				angles[]={6.1934795,0,0.04855746};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-			};
-			id=793;
-			type="Land_ClutterCutter_large_F";
-			atlOffset=4.5776367e-005;
-		};
-		class Item29
-		{
-			dataType="Group";
-			side="Civilian";
-			class Entities
-			{
-				items=1;
-				class Item0
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={2510.7534,78.049675,7697.6465};
-						angles[]={0,3.5000396,0};
-					};
-					side="Civilian";
-					flags=7;
-					class Attributes
-					{
-						class Inventory
-						{
-							class uniform
-							{
-								typeName="U_BG_Guerilla2_3";
-								isBackpack=0;
-							};
-							map="ItemMap";
-							compass="ItemCompass";
-							watch="ItemWatch";
-							headgear="H_Bandanna_gry";
-						};
-					};
-					id=795;
-					type="C_man_polo_4_F_asia";
-				};
-			};
-			class Attributes
-			{
-			};
-			id=794;
-		};
-		class Item30
-		{
-			dataType="Group";
-			side="Civilian";
-			class Entities
-			{
-				items=1;
-				class Item0
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={2516.5264,77.973854,7695.0132};
-						angles[]={0,3.512948,0};
-					};
-					side="Civilian";
-					flags=7;
-					class Attributes
-					{
-						class Inventory
-						{
-							class uniform
-							{
-								typeName="U_I_C_Soldier_Bandit_3_F";
-								isBackpack=0;
-							};
-							map="ItemMap";
-							compass="ItemCompass";
-							watch="ItemWatch";
-						};
-					};
-					id=797;
-					type="C_man_polo_2_F_asia";
-					atlOffset=2.2888184e-005;
-				};
-			};
-			class Attributes
-			{
-			};
-			id=796;
-			atlOffset=2.2888184e-005;
 		};
 	};
 	class Connections

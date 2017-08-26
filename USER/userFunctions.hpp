@@ -25,3 +25,5 @@ class bj_ui {
         class twoLineHint {};
     };
 };
+
+#include "..\node_modules\grad-gpsTracker\cfgFunctions.hpp"
