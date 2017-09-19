@@ -30,4 +30,4 @@ _markedCarsPos = [];
             _vehArray pushBack (getPos _veh);
         };
     };
-} forEach vehicles;
+} forEach (vehicles select {_x getVariable ["bj_isUsVehicle",false]});

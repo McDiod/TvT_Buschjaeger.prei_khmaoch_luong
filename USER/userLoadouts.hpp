@@ -31,7 +31,8 @@ class bj_assassins {
             "ACE_ATragMX",
 			"ACE_epinephrine",
 			"ACE_Flashlight_XL50",
-			"ACE_MapTools"
+			"ACE_MapTools",
+            "ACE_key_lockpick"
         };
         addItemsToVest[] = {};
         addItemsToBackpack[] = {};
