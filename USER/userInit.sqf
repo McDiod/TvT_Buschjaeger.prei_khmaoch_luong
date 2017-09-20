@@ -59,6 +59,7 @@ if (isServer) then {
         _targetCiv setVariable ["bj_taskBlu",_taskBlu];
         _targetCiv setVariable ["bj_taskInd",_taskInd];
         [_targetCiv] call bj_fnc_trackCiv;
+        [_targetCiv] call grad_common_fnc_addJipToZeus;
     } forEach BJ_TARGETPOSITIONS;
 
     {{
@@ -66,6 +67,9 @@ if (isServer) then {
     } forEach _x} forEach BJ_CIVS;
 
     [] execVM "USER\scripts\markBluforVehicles.sqf";
+
+    TF_terrain_interception_coefficient = 4;
+    publicVariable "TF_terrain_interception_coefficient";
 };
 
 
