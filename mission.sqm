@@ -8,7 +8,7 @@ class EditorData
 	toggles=1;
 	class ItemIDProvider
 	{
-		nextID=851;
+		nextID=877;
 	};
 	class MarkerIDProvider
 	{
@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=318;
+		nextID=346;
 	};
 	class Camera
 	{
-		pos[]={6110.144,90.259186,1531.7803};
-		dir[]={-0.48487481,-0.78961456,0.3761709};
-		up[]={-0.62389201,0.61357814,0.484023};
-		aside[]={0.61300081,-2.643792e-007,0.79014277};
+		pos[]={4650.9893,255.38644,4574.7915};
+		dir[]={-0.71529442,-0.57351327,0.39930913};
+		up[]={-0.50077063,0.81919473,0.27955228};
+		aside[]={0.48743984,1.0302756e-007,0.8731631};
 	};
 };
 binarizationWanted=0;
@@ -6258,7 +6258,6 @@ class Mission
 		{
 			dataType="Layer";
 			name="Civs Phoum Srei";
-			state=2;
 			class Entities
 			{
 				items=17;
@@ -6291,7 +6290,7 @@ class Mission
 					{
 					};
 					id=584;
-					atlOffset=-133.2;
+					atlOffset=6.1988831e-006;
 				};
 				class Item1
 				{
@@ -6321,7 +6320,6 @@ class Mission
 					{
 					};
 					id=586;
-					atlOffset=-133.2;
 				};
 				class Item2
 				{
@@ -6351,7 +6349,6 @@ class Mission
 					{
 					};
 					id=588;
-					atlOffset=-133.2;
 				};
 				class Item3
 				{
@@ -6423,7 +6420,6 @@ class Mission
 					{
 					};
 					id=590;
-					atlOffset=-133.2;
 				};
 				class Item4
 				{
@@ -6453,7 +6449,6 @@ class Mission
 					{
 					};
 					id=594;
-					atlOffset=-133.2;
 				};
 				class Item5
 				{
@@ -6483,7 +6478,7 @@ class Mission
 					{
 					};
 					id=596;
-					atlOffset=-133.2;
+					atlOffset=2.3841858e-007;
 				};
 				class Item6
 				{
@@ -6514,7 +6509,7 @@ class Mission
 					{
 					};
 					id=600;
-					atlOffset=-133.2;
+					atlOffset=-2.4318695e-005;
 				};
 				class Item7
 				{
@@ -6543,7 +6538,6 @@ class Mission
 					{
 					};
 					id=602;
-					atlOffset=-133.2;
 				};
 				class Item8
 				{
@@ -6621,7 +6615,6 @@ class Mission
 					{
 					};
 					id=604;
-					atlOffset=-133.2;
 				};
 				class Item9
 				{
@@ -6699,7 +6692,7 @@ class Mission
 					{
 					};
 					id=612;
-					atlOffset=-133.2;
+					atlOffset=4.7683716e-006;
 				};
 				class Item10
 				{
@@ -6777,7 +6770,6 @@ class Mission
 					{
 					};
 					id=618;
-					atlOffset=-133.2;
 				};
 				class Item11
 				{
@@ -6854,7 +6846,6 @@ class Mission
 					{
 					};
 					id=624;
-					atlOffset=-133.2;
 				};
 				class Item12
 				{
@@ -6884,7 +6875,6 @@ class Mission
 					{
 					};
 					id=630;
-					atlOffset=-133.2;
 				};
 				class Item13
 				{
@@ -6962,7 +6952,6 @@ class Mission
 					{
 					};
 					id=632;
-					atlOffset=-133.2;
 				};
 				class Item14
 				{
@@ -7027,7 +7016,7 @@ class Mission
 					{
 					};
 					id=638;
-					atlOffset=-133.2;
+					atlOffset=8.5830688e-006;
 				};
 				class Item15
 				{
@@ -7082,7 +7071,7 @@ class Mission
 					{
 					};
 					id=643;
-					atlOffset=-133.2;
+					atlOffset=1.2903471;
 				};
 				class Item16
 				{
@@ -7148,17 +7137,16 @@ class Mission
 					{
 					};
 					id=647;
-					atlOffset=-133.2;
+					atlOffset=9.5367432e-007;
 				};
 			};
 			id=652;
-			atlOffset=-133.2;
+			atlOffset=7.3765564;
 		};
 		class Item14
 		{
 			dataType="Layer";
 			name="Civs Sainte Clementine";
-			state=2;
 			class Entities
 			{
 				items=8;
@@ -7226,7 +7214,6 @@ class Mission
 					{
 					};
 					id=653;
-					atlOffset=-133.2;
 				};
 				class Item1
 				{
@@ -7256,7 +7243,6 @@ class Mission
 					{
 					};
 					id=658;
-					atlOffset=-133.2;
 				};
 				class Item2
 				{
@@ -7286,7 +7272,6 @@ class Mission
 					{
 					};
 					id=660;
-					atlOffset=-133.2;
 				};
 				class Item3
 				{
@@ -7353,7 +7338,7 @@ class Mission
 					{
 					};
 					id=662;
-					atlOffset=-133.2;
+					atlOffset=1.6212463e-005;
 				};
 				class Item4
 				{
@@ -7384,7 +7369,7 @@ class Mission
 					{
 					};
 					id=667;
-					atlOffset=-133.2;
+					atlOffset=-8.5830688e-006;
 				};
 				class Item5
 				{
@@ -7450,7 +7435,6 @@ class Mission
 					{
 					};
 					id=669;
-					atlOffset=-133.2;
 				};
 				class Item6
 				{
@@ -7481,7 +7465,7 @@ class Mission
 					{
 					};
 					id=674;
-					atlOffset=-133.2;
+					atlOffset=4.7683716e-007;
 				};
 				class Item7
 				{
@@ -7512,17 +7496,16 @@ class Mission
 					{
 					};
 					id=676;
-					atlOffset=-133.2;
+					atlOffset=-4.7683716e-007;
 				};
 			};
 			id=678;
-			atlOffset=-133.2;
+			atlOffset=0.71368504;
 		};
 		class Item15
 		{
 			dataType="Layer";
 			name="Civs Kanleng";
-			state=2;
 			class Entities
 			{
 				items=9;
@@ -7591,7 +7574,7 @@ class Mission
 					{
 					};
 					id=679;
-					atlOffset=-133.2;
+					atlOffset=4.7683716e-007;
 				};
 				class Item1
 				{
@@ -7621,7 +7604,6 @@ class Mission
 					{
 					};
 					id=684;
-					atlOffset=-133.2;
 				};
 				class Item2
 				{
@@ -7651,7 +7633,6 @@ class Mission
 					{
 					};
 					id=686;
-					atlOffset=-133.2;
 				};
 				class Item3
 				{
@@ -7682,7 +7663,7 @@ class Mission
 					{
 					};
 					id=688;
-					atlOffset=-133.2;
+					atlOffset=2.3749943;
 				};
 				class Item4
 				{
@@ -7713,7 +7694,7 @@ class Mission
 					{
 					};
 					id=690;
-					atlOffset=-133.2;
+					atlOffset=2.3084984;
 				};
 				class Item5
 				{
@@ -7780,7 +7761,7 @@ class Mission
 					{
 					};
 					id=692;
-					atlOffset=-133.2;
+					atlOffset=1.9073486e-006;
 				};
 				class Item6
 				{
@@ -7845,7 +7826,7 @@ class Mission
 					{
 					};
 					id=697;
-					atlOffset=-133.2;
+					atlOffset=-3.9756298e-005;
 				};
 				class Item7
 				{
@@ -7912,7 +7893,7 @@ class Mission
 					{
 					};
 					id=702;
-					atlOffset=-133.2;
+					atlOffset=1.9792395;
 				};
 				class Item8
 				{
@@ -7979,11 +7960,11 @@ class Mission
 					{
 					};
 					id=707;
-					atlOffset=-133.2;
+					atlOffset=1.4893059;
 				};
 			};
 			id=712;
-			atlOffset=-133.2;
+			atlOffset=3.1712515;
 		};
 		class Item16
 		{
@@ -7997,7 +7978,6 @@ class Mission
 		{
 			dataType="Layer";
 			name="Civs moattonle";
-			state=2;
 			class Entities
 			{
 				items=14;
@@ -8030,7 +8010,7 @@ class Mission
 					{
 					};
 					id=723;
-					atlOffset=-133.2;
+					atlOffset=1.2401018;
 				};
 				class Item1
 				{
@@ -8060,7 +8040,6 @@ class Mission
 					{
 					};
 					id=725;
-					atlOffset=-133.2;
 				};
 				class Item2
 				{
@@ -8126,7 +8105,6 @@ class Mission
 					{
 					};
 					id=727;
-					atlOffset=-133.2;
 				};
 				class Item3
 				{
@@ -8205,7 +8183,7 @@ class Mission
 					{
 					};
 					id=732;
-					atlOffset=-133.2;
+					atlOffset=3.9100647e-005;
 				};
 				class Item4
 				{
@@ -8283,7 +8261,7 @@ class Mission
 					{
 					};
 					id=738;
-					atlOffset=-133.2;
+					atlOffset=2.348423e-005;
 				};
 				class Item5
 				{
@@ -8314,7 +8292,7 @@ class Mission
 					{
 					};
 					id=744;
-					atlOffset=-133.2;
+					atlOffset=-4.6730042e-005;
 				};
 				class Item6
 				{
@@ -8345,7 +8323,7 @@ class Mission
 					{
 					};
 					id=746;
-					atlOffset=-133.2;
+					atlOffset=-9.5367432e-007;
 				};
 				class Item7
 				{
@@ -8423,7 +8401,7 @@ class Mission
 					{
 					};
 					id=748;
-					atlOffset=-133.2;
+					atlOffset=1.4878235;
 				};
 				class Item8
 				{
@@ -8454,7 +8432,7 @@ class Mission
 					{
 					};
 					id=754;
-					atlOffset=-133.2;
+					atlOffset=-1.9073486e-006;
 				};
 				class Item9
 				{
@@ -8484,7 +8462,6 @@ class Mission
 					{
 					};
 					id=756;
-					atlOffset=-133.2;
 				};
 				class Item10
 				{
@@ -8515,7 +8492,7 @@ class Mission
 					{
 					};
 					id=758;
-					atlOffset=-133.2;
+					atlOffset=3.695488e-006;
 				};
 				class Item11
 				{
@@ -8605,7 +8582,7 @@ class Mission
 					{
 					};
 					id=760;
-					atlOffset=-133.2;
+					atlOffset=8.5830688e-006;
 				};
 				class Item12
 				{
@@ -8671,7 +8648,7 @@ class Mission
 					{
 					};
 					id=767;
-					atlOffset=-133.2;
+					atlOffset=0.00029301643;
 				};
 				class Item13
 				{
@@ -8701,11 +8678,10 @@ class Mission
 					{
 					};
 					id=772;
-					atlOffset=-133.2;
 				};
 			};
 			id=774;
-			atlOffset=-133.2;
+			atlOffset=4.9088006;
 		};
 		class Item18
 		{

@@ -12,6 +12,7 @@ class bj {
         class equipTargetCiv {};
         class findNearestPos {};
         class handleCivKilled {};
+        class moveIntoCiv {};
         class tpTo {};
         class trackCiv {};
     };

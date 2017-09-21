@@ -45,6 +45,7 @@ if (isServer) then {
         };
     } forEach allUnits;
 
+    BJ_TARGETCIVS = [];
     _equipment = [0,1,2,3,4,5];
     {
         _villageArray = BJ_CIVS select _forEachIndex;
@@ -60,7 +61,11 @@ if (isServer) then {
         _targetCiv setVariable ["bj_taskInd",_taskInd];
         [_targetCiv] call bj_fnc_trackCiv;
         [_targetCiv] call grad_common_fnc_addJipToZeus;
+
+        BJ_TARGETCIVS pushBack _targetCiv;
     } forEach BJ_TARGETPOSITIONS;
+
+    publicVariable "BJ_TARGETCIVS";
 
     {{
         _x addEventHandler ["Killed",{_this call bj_fnc_handleCivKilled}];
