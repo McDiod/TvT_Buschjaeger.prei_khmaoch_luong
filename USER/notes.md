@@ -1,4 +1,5 @@
 ## Mission
+* Assassinen müssen 3/4 Zielzivilisten töten
 * Zielzivilisten laufen umher
 * BLUFOR sieht genaue Position
 * INDEPENDENT sieht nur das Gebiet, weiss wie sie aussehen und bekommt ab 550m einen Tracker angezeigt

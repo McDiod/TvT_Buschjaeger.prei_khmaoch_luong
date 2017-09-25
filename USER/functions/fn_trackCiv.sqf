@@ -8,7 +8,7 @@ params ["_civ"];
         [_civ getVariable ["bj_taskBlu",""],"Failed",true] call BIS_fnc_taskSetState;
 
         bj_civsTargetsKilledCounter = (missionNamespace getVariable ["bj_civsTargetsKilledCounter",0]) + 1;
-        if (bj_civsTargetsKilledCounter >= count BJ_TARGETPOSITIONS) then {
+        if (bj_civsTargetsKilledCounter >= ((count BJ_TARGETPOSITIONS)-1)) then {
             bj_civTargetsKilled = true;
         };
 
