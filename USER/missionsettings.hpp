@@ -2,5 +2,5 @@
 *
 */
 
-canTakeEnemyRadios = 1;                                                         // Können Spieler feindliche Funkgeräte aufsammeln? (0/1)
+canTakeEnemyRadios = 0;                                                         // Können Spieler feindliche Funkgeräte aufsammeln? (0/1)
 canUseScopes = 0;                                                               // Können Spieler vergrößernde Visiere auf allen Waffen benutzen? (0/1) - siehe scopeWeapons.hpp
