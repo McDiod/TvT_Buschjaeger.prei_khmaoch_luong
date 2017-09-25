@@ -53,6 +53,12 @@ mcd_onSpawnKeyDown = (findDisplay 46) displayAddEventHandler ["KeyDown", {
                     if (!isNull (missionNamespace getVariable ["bj_indAssistant",objNull])) then {
                         [{[objNull,bj_indAssistant,BJ_INDSPAWN] remoteExec ["bj_fnc_tpTo",bj_indAssistant,false]},[],1.5] call CBA_fnc_waitAndExecute;
                     };
+                    if (!isNull (missionNamespace getVariable ["bj_indLeader_1",objNull])) then {
+                        [{[objNull,bj_indLeader_1,BJ_INDSPAWN] remoteExec ["bj_fnc_tpTo",bj_indLeader_1,false]},[],1.5] call CBA_fnc_waitAndExecute;
+                    };
+                    if (!isNull (missionNamespace getVariable ["bj_indAssistant_1",objNull])) then {
+                        [{[objNull,bj_indAssistant_1,BJ_INDSPAWN] remoteExec ["bj_fnc_tpTo",bj_indAssistant_1,false]},[],1.5] call CBA_fnc_waitAndExecute;
+                    };
 
                     {deleteMarkerLocal _x} forEach ["bj_radius_1","bj_radius_2","bj_radius_3","bj_radius_4","bj_spawnMarker"];
 

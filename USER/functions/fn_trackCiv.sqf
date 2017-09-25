@@ -1,5 +1,7 @@
 params ["_civ"];
 
+
+
 [{
     params ["_civ","_handle"];
 
@@ -8,7 +10,7 @@ params ["_civ"];
         [_civ getVariable ["bj_taskBlu",""],"Failed",true] call BIS_fnc_taskSetState;
 
         bj_civsTargetsKilledCounter = (missionNamespace getVariable ["bj_civsTargetsKilledCounter",0]) + 1;
-        if (bj_civsTargetsKilledCounter >= ((count BJ_TARGETPOSITIONS)-1)) then {
+        if (bj_civsTargetsKilledCounter >= (["targetKills",3] call BIS_fnc_getParamValue)) then {
             bj_civTargetsKilled = true;
         };
 
@@ -20,5 +22,5 @@ params ["_civ"];
             [_civ,0.1,nil,nil,nil,nil,10,true] remoteExec ["grad_gpsTracker_fnc_openTitle",_x,false];
             _x setVariable ["bj_lastTrackerTime",CBA_missionTime];
         };
-    } forEach [missionNamespace getVariable ["bj_indLeader",objNull],missionNamespace getVariable ["bj_indAssistant",objNull]];
+    } forEach [missionNamespace getVariable ["bj_indLeader",objNull],missionNamespace getVariable ["bj_indAssistant",objNull],missionNamespace getVariable ["bj_indLeader_1",objNull],missionNamespace getVariable ["bj_indAssistant_1",objNull]];
 },2,_civ] call CBA_fnc_addPerFrameHandler;

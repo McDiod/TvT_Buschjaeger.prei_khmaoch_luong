@@ -23,4 +23,10 @@ if (bj_civKilledCounter == 3) then {
     if (["bj_taskEliminate_2"] call BIS_fnc_taskExists) then {
         ["bj_taskEliminate_2",bj_indAssistant] call BIS_fnc_taskSetDestination;
     };
+    if (["bj_taskEliminate_3"] call BIS_fnc_taskExists) then {
+        ["bj_taskEliminate_3",bj_indLeader_1] call BIS_fnc_taskSetDestination;
+    };
+    if (["bj_taskEliminate_4"] call BIS_fnc_taskExists) then {
+        ["bj_taskEliminate_4",bj_indAssistant_1] call BIS_fnc_taskSetDestination;
+    };
 };

@@ -17,3 +17,9 @@
 * GPS und Fahrzeugschlüssel dabei
 * Spielerzivilisten können ohne Strafe getötet werden
 * Roleplay!
+
+## Spielstart
+* BLUFOR hat Vorbereitungszeit, um sich auf der Karte zu verteilen
+* dafür mit Fahnenstange interagieren und Zielort auswählen
+    * nacheinander und geordnet
+* danach INDEPENDENT Anführer mit Fahnenstange interagieren
